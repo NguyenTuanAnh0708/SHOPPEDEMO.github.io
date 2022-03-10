@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.item{
+    font-size: black;
+    height: 450px;
+    margin-bottom: 100px;
+    border: 2px solid #fff;
+    transition: all 0.5s ease;
+}
+.items-img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding: 0;
+}
+.item-img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    padding: 0;
+}
+.img-banner{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    object-fit: cover;
+}
+.wapper-info{
+    padding: 5px;
+}
+.item-info{
+    margin: 5px 0px;
+    font-size: 16px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+}
+.item-sale{
+    margin: 5px 0px;
+}
+.item-sale span{
+    background-color: orange;
+    color: #fff;
+}
+.item-price{
+    margin: 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-price .price{
+    color: rgb(238, 167, 34);
+}
+.item-price .status{
+    opacity: 0.5;
+}
+.item:hover{
+    border: 2px solid orangered;
+}
